@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Login Form</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<fieldset>
+    <legend>Login Form</legend>
+
+    <form onsubmit="checkLogin(); return false;">
+
+        <table>
+
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <input type="text" id="username">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" id="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Login</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <p id="message"></p>
+
+</fieldset>
+
+</body>
+</html>
